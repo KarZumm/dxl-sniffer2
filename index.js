@@ -10,7 +10,7 @@ require('dotenv').config()
     const logger = require('./src/logger').logObject()
 
 /* MISP funktsioonid */
-    const searchMISP = require('./src/misp')
+    const searchMISP = require('./src/misp').searchMISP
 
 init()
 
