@@ -28,6 +28,9 @@ async function init() {
                 logger.info(`Count of new MD5 hashes: ${hashesFinalList['MD5'].length}`)
                 logger.info(`Count of new SHA1 hashes: ${hashesFinalList['SHA1'].length}`)
                 logger.info(`Count of new SHA256 hashes: ${hashesFinalList['SHA256'].length}`)
+        logger.info(`Setting the TIE Reputations...`)
+            await setTIEReputations()
+
     } catch(err) {
         logger.error(`Fatal error happened: ${new Error(err)}`)
         process.exit(-1)
@@ -54,6 +57,8 @@ async function setTIEReputations(tieClient, hashesFinalList) {
 
 function compareLists(hashesFromMISP, hashesFromCache) {
     return new Promise(function(resolve, reject) {
+
+        if(!hashesFromMISP) return resolve(hashesFromCache)
 
         const compareArrays = function(hashTypesToCompare) {
 
