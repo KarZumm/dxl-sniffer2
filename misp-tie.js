@@ -29,7 +29,10 @@ async function init() {
                 logger.info(`Count of new SHA1 hashes: ${hashesFinalList['SHA1'].length}`)
                 logger.info(`Count of new SHA256 hashes: ${hashesFinalList['SHA256'].length}`)
         logger.info(`Setting the TIE Reputations...`)
-            await setTIEReputations()
+            await setTIEReputations(tieClient, hashesFinalList)
+
+        logger.info(`Thank you for your attention. Exiting.`)
+            process.exit(0)
 
     } catch(err) {
         logger.error(`Fatal error happened: ${new Error(err)}`)
