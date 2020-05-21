@@ -4,7 +4,7 @@ require('dotenv').config()
     const fs = require('fs')
 
 /* DXL funktsioon(id) */
-    const connectDXL = require('./src/dxl')
+    const connectDXL = require('./src/dxl').connectDXL
 
 /* Logimine */
     const logger = require('./src/logger').logObject()
