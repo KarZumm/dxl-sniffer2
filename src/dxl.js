@@ -1,6 +1,26 @@
 const Dxl = require('@opendxl/dxl-client')
 const TieClient = require('@opendxl/dxl-tie-client').TieClient
+const MarClient = require('@opendxl/dxl-mar-client').MarClient
 const hashTypes = require('@opendxl/dxl-tie-client').HashType
+
+function connectMAR() {
+    return new Promise(function(resolve, reject) {
+
+        try {
+            const dxlClient = new Dxl.Client(Dxl.Config.createDxlConfigFromFile(process.env['DXLCONFIGFILE']))
+
+            dxlClient.connect(() => {
+                let marClient = new MarClient(dxlClient)
+                logger.info(`Connected to MAR...`)
+                resolve({dxlClient, marClient})
+            })
+        }
+        catch(err) {
+            reject(err)
+        }
+
+    })
+}
 
 function connectDXL() {
     return new Promise(function(resolve, reject) {
@@ -37,4 +57,4 @@ function setTIEReputation(tieClient, hashToSet) {
     })
 }
 
-module.exports = { connectDXL, setTIEReputation }
+module.exports = { connectDXL, setTIEReputation, connectMAR }
