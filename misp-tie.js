@@ -1,24 +1,38 @@
 require('dotenv').config()
+    let cacheFileName = process.env['CACHEFILE'] || 'cache.json'
+    let runIntervalHours = process.env['RUNINTERVALHOURS'] || 1
+
 const fs = require('fs')
 const logger = require('./src/logger').logObject()
 const connectDXL = require('./src/dxl').connectDXL
 const setTIEReputation = require('./src/dxl').setTIEReputation
 const getAttributesFromMISP = require('./src/misp').getAttributesFromMISP
-const argv = require('optimist').argv
-
-let cacheFileName = 'cache.json'
+const argv = require('optimist')
+    .usage('Synchronize hashes from MISP to TIE enterprise security known malicious.\n$0')
+    .describe('noMISP', 'Do not connect to MISP to get new hashes')
+    .describe('IamFuckingSure', 'This is the override for actually setting the reputation in TIE. If not present it will only play out what would be done.')
+    .describe('killCache', 'Ignores cache data and rewrites it')
+    .argv
 
 init()
 
+setInterval(() => {
+    init()
+}, runIntervalHours * 3600000);
+
 async function init() {
+    let dxlClients = undefined
     let tieClient = undefined
+    let dxlClient = undefined
     let hashesFromMISP = undefined
     let hashesFromCache = undefined
     let hashesFinalList = undefined
 
     try {
         logger.info(`Connecting to TIE/DXL...`)
-            tieClient = await connectDXL()
+            dxlClients = await connectDXL()
+                tieClient = dxlClients.tieClient
+                dxlClient = dxlClients.dxlClient
         logger.info(`Loading cached hashes from previous run...`)
             hashesFromCache = await getHashesFromCache()
         logger.info(`Downloading hashes from MISP...`)
@@ -31,8 +45,9 @@ async function init() {
         logger.info(`Setting the TIE Reputations...`)
             await setTIEReputations(tieClient, hashesFinalList)
 
-        logger.info(`Thank you for your attention. Exiting.`)
-            process.exit(0)
+        logger.info(`Disconnecting from DXL...`)
+            dxlClient.destroy()
+        logger.info(`Sleeping for ${runIntervalHours} hours...`)
 
     } catch(err) {
         logger.error(`Fatal error happened: ${new Error(err)}`)
@@ -117,16 +132,25 @@ function getHashesFromMISP() {
 function getHashesFromCache() {
     return new Promise(function(resolve, reject) {
 
+        const getEmptyCache = function() {
+            return {
+                MD5: [],
+                SHA1: [],
+                SHA256: []
+            }
+        }
+
         const getCacheContent = function() { 
             try {
-                return JSON.parse(fs.readFileSync(cacheFileName).toString())
+                if(argv.killCache) {
+                    logger.warn(`Ignoring current cached content`)
+                    return getEmptyCache()
+                } else {
+                    return JSON.parse(fs.readFileSync(cacheFileName).toString())
+                }
             } catch(err) {
                 logger.warn(`${new Error(err).message}`)
-                return {
-                    MD5: [],
-                    SHA1: [],
-                    SHA256: []
-                }
+                return getEmptyCache()
             }
         }
 

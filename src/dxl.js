@@ -11,7 +11,7 @@ function connectDXL() {
             dxlClient.connect(() => {
                 let tieClient = new TieClient(dxlClient)
                 logger.info(`Connected to DXL.`)
-                resolve(tieClient)
+                resolve({tieClient, dxlClient})
             })
         }
         catch(err) {

@@ -1,30 +1,25 @@
 require('dotenv').config()
 
-/* Failidega asjatamine */
-    const fs = require('fs')
+const fs = require('fs')
+const connectDXL = require('./src/dxl').connectDXL
+const logger = require('./src/logger').logObject()
+const searchMISP = require('./src/misp').searchMISP
+const parseMISPSearchResults = require('./src/misp').parseMISPSearchResults
 
-/* DXL funktsioon(id) */
-    const connectDXL = require('./src/dxl').connectDXL
-
-/* Logimine */
-    const logger = require('./src/logger').logObject()
-
-/* MISP funktsioonid */
-    const searchMISP = require('./src/misp').searchMISP
-    const parseMISPSearchResults = require('./src/misp').parseMISPSearchResults
-
-//console.log(parseMISPSearchResults([["{\"response\": {\"Attribute\": []}}",""],["{\"response\": {\"Attribute\": []}}",""],["{\"response\": {\"Attribute\": []}}",""]]))
-
-
+// console.log(parseMISPSearchResults([["{\"response\": {\"Attribute\": []}}",""],["{\"response\": {\"Attribute\": []}}",""],["{\"response\": {\"Attribute\": []}}",""]]))
 
 init()
 
 async function init() {
+    let dxlClients = undefined
     let tieClient = undefined
+    let dxlClient = undefined
 
     try {
         logger.info(`Connecting to DXL/TIE...`)
-            tieClient = await connectDXL()
+            dxlClients = await connectDXL()
+                tieClient = dxlClients.tieClient
+                dxlClient = dxlClients.dxlClient
         logger.info(`Adding Callback for: addFileFirstInstanceCallback...`)
             tieClient.addFileFirstInstanceCallback(processMessage)
 
