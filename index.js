@@ -11,6 +11,11 @@ require('dotenv').config()
 
 /* MISP funktsioonid */
     const searchMISP = require('./src/misp').searchMISP
+    const parseMISPSearchResults = require('./src/misp').parseMISPSearchResults
+
+//console.log(parseMISPSearchResults([["{\"response\": {\"Attribute\": []}}",""],["{\"response\": {\"Attribute\": []}}",""],["{\"response\": {\"Attribute\": []}}",""]]))
+
+
 
 init()
 
@@ -45,6 +50,7 @@ function processMessage(obj, originalEvent) {
 
     Promise.all([searchMISP(obj.hashes.md5), searchMISP(obj.hashes.sha1), searchMISP(obj.hashes.sha256)]).then(result => {
         logger.info(`MISP Result: ${obj.name}. MD5: ${obj.hashes.md5}, SHA1: ${obj.hashes.sha1}, SHA256: ${obj.hashes.sha256}`)
+            if(parseMISPSearchResults(result).length === 0) logger.info(`MISP Does not know anything about this one.`)
         logger.info(`${JSON.stringify(result)}`)
         appendToFile('./logs/logfile.log', obj)
         appendToFile('./logs/logfile.log', result)

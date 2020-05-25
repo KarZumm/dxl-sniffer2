@@ -73,4 +73,41 @@ function getAttributesFromMISP(attribute) {
     })
 }
 
-module.exports = { searchMISP, getAttributesFromMISP }
+/*
+
+[
+  [
+    "{\"response\": 
+      {\"Attribute\": []
+      }
+    }",
+  ""],
+  ["{\"response\": 
+    {\"Attribute\": []
+  }
+}",""],["{\"response\": {\"Attribute\": []}}",""]]
+
+*/
+
+function parseMISPSearchResults(result) {
+let parsedResult = []
+
+  for(resultSet of result) {
+
+    let resultArray = resultSet.filter(el => {
+      if(el === '') return false
+        try {
+          el = JSON.parse(el)
+            if(el.response.Attribute.length === 0) return false
+          parsedResult.push(el)
+        } 
+        catch(err) {
+          return false
+        }
+    })
+  }
+
+return parsedResult
+}
+
+module.exports = { searchMISP, getAttributesFromMISP, parseMISPSearchResults }
