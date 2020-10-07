@@ -5,6 +5,7 @@ const connectDXL = require('./src/dxl').connectDXL
 const logger = require('./src/logger').logObject()
 const searchMISP = require('./src/misp').searchMISP
 const parseMISPSearchResults = require('./src/misp').parseMISPSearchResults
+const vtQuery = require('./src/virustotal')
 
 // console.log(parseMISPSearchResults([["{\"response\": {\"Attribute\": []}}",""],["{\"response\": {\"Attribute\": []}}",""],["{\"response\": {\"Attribute\": []}}",""]]))
 
@@ -43,12 +44,22 @@ function processMessage(obj, originalEvent) {
 
     logger.info(`New file detected: ${obj.hashes.name}. MD5: ${obj.hashes.md5}, SHA1: ${obj.hashes.sha1}, SHA256: ${obj.hashes.sha256}`)
 
-    Promise.all([searchMISP(obj.hashes.md5), searchMISP(obj.hashes.sha1), searchMISP(obj.hashes.sha256)]).then(result => {
-        logger.info(`MISP Result: ${obj.name}. MD5: ${obj.hashes.md5}, SHA1: ${obj.hashes.sha1}, SHA256: ${obj.hashes.sha256}`)
-            if(parseMISPSearchResults(result).length === 0) logger.info(`MISP Does not know anything about this one.`)
-        logger.info(`${JSON.stringify(result)}`)
-        appendToFile('./logs/logfile.log', obj)
-        appendToFile('./logs/logfile.log', result)
+    Promise.all([searchMISP(obj.hashes.md5), searchMISP(obj.hashes.sha1), searchMISP(obj.hashes.sha256)]).then(MISPResult => {
+
+        vtQuery(obj.hashes.sha256).then(vtResult => {
+            logger.info(`MISP Result: ${obj.name}. MD5: ${obj.hashes.md5}, SHA1: ${obj.hashes.sha1}, SHA256: ${obj.hashes.sha256}`)
+                if(parseMISPSearchResults(MISPResult).length === 0) logger.info(`MISP Does not know anything about this one.`)
+            logger.info(`${JSON.stringify(MISPResult)}`)
+            appendToFile('./logs/logfile.log', obj)
+            appendToFile('./logs/logfile.log', MISPResult)
+
+                if(vtResult.data.attributes.last_analysis_stats.malicious >= 10) logger.info(`Virustotal says that this has been detected by more than 10 engines.`)
+
+            appendToFile('./logs/logfile.log', vtResult)
+
+        })
+
+
     })
 
 }

@@ -1,4 +1,17 @@
 require('dotenv').config()
+const vt = require('./src/virustotal')
+const fs = require('fs')
+
+/* 8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85 */ 
+
+vt('8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85').then(res => {
+    fs.writeFileSync('vtotalreply.json', JSON.stringify(res, null, 2))
+}).catch(console.error)
+
+
+
+/*
+require('dotenv').config()
 const connectDXL = require('./src/dxl').connectDXL
 const setTIEReputation = require('./src/dxl').setTIEReputation
 const logger = require('./src/logger').logObject()

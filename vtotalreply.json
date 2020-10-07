@@ -1,0 +1,952 @@
+{
+  "data": {
+    "attributes": {
+      "autostart_locations": [
+        {
+          "entry": "",
+          "location": "mock"
+        },
+        {
+          "entry": "b",
+          "location": "a"
+        },
+        {
+          "entry": "C:\\Users\\Harry\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\AutorunsDisabled\\New Compressed (zipped) Folder.zip",
+          "location": "C:\\Users\\Harry\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\AutorunsDisabled"
+        },
+        {
+          "entry": " ",
+          "location": " "
+        },
+        {
+          "entry": "{90EF4A5E-85DB-4825-96F5-1AB93C2A8EEB}",
+          "location": "HKLM\\Software\\Microsoft\\Active Setup\\Installed Components"
+        },
+        {
+          "entry": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\Startup-sqhwd.zip",
+          "location": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup"
+        },
+        {
+          "entry": "",
+          "location": "undefined"
+        },
+        {
+          "entry": "C:/Downloads/modello+fattura+openoffice+decorativa.zip.FriendlyAppName",
+          "location": "HKU/S-1-5-21-2493325721-3218742803-2001269711-1000/SOFTWARE/Classes/Local Settings/Software/Microsoft/Windows/Shell/MuiCache"
+        },
+        {
+          "entry": "C:\\Users\\USER\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\vredist.exe",
+          "location": "C:\\Users\\USER\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup"
+        },
+        {
+          "entry": "HKLM\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Run\\BrowserSafer",
+          "location": "HKLM\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Run"
+        },
+        {
+          "entry": "%windir%\\system32\\GWX\\GWXUXWorker.exe",
+          "location": "Task Scheduler"
+        },
+        {
+          "entry": "%windir%\\system32\\GWX\\GWXDetector.exe",
+          "location": "Task Scheduler"
+        },
+        {
+          "entry": "%windir%\\system32\\GWX\\GWXConfigManager.exe",
+          "location": "Task Scheduler"
+        },
+        {
+          "entry": "%windir%\\system32\\GWX\\GWX.exe",
+          "location": "Task Scheduler"
+        },
+        {
+          "entry": "C:\\Users\\andy\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\AutorunsDisabled\\New Compressed (zipped) Folder.zip",
+          "location": "C:\\Users\\andy\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\AutorunsDisabled"
+        },
+        {
+          "entry": "",
+          "location": "C:/Windows/system32/Tasks/{2DAF90E5-66EE-4F05-94B6-21DE0A6906AE}"
+        },
+        {
+          "entry": "C:/Program Files/WinRAR/zipnew.dat",
+          "location": "HKU/S-1-5-21-1117063398-2968770302-1404234813-1000/SOFTWARE/Classes/Local Settings/Software/Microsoft/Windows/Shell/MuiCache"
+        },
+        {
+          "entry": "",
+          "location": "HKLM\\System\\CurrentControlSet\\Services\\"
+        },
+        {
+          "entry": "MMReminderService",
+          "location": "HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Run"
+        },
+        {
+          "entry": "",
+          "location": "HKLM/System/CurrentControlSet/Services/"
+        },
+        {
+          "entry": "E:\\Program Files (x86)\\Metal GEAR SOLID\\MGS.5.TPP_M8\\Metal Gear Solid V The Phantom Pain MULTI8\\rebuilt.MGS.5.TPP_M8.exe",
+          "location": "Task Scheduler"
+        },
+        {
+          "entry": "C:\\Users\\SELIM\\rebuilt.Bangla-gta-vc.exe",
+          "location": "Task Scheduler"
+        },
+        {
+          "entry": "D:\\ONLINE~1\\REBUIL~1.SCR",
+          "location": "HKCU\\Control Panel\\Desktop\\Scrnsave.exe"
+        },
+        {
+          "entry": "\\System Healer Task",
+          "location": "Task Scheduler"
+        },
+        {
+          "entry": "\\Oiqefgop",
+          "location": "Task Scheduler"
+        },
+        {
+          "entry": "NetDrive2",
+          "location": "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run"
+        },
+        {
+          "entry": "\\Menuphfi",
+          "location": "Task Scheduler"
+        },
+        {
+          "entry": "c:\\PROGRA~2\\OPTIMI~1\\OPTPRO~2.DLL",
+          "location": "HKLM\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows\\AppInit_DLLs"
+        },
+        {
+          "entry": "\\Beuoslo",
+          "location": "Task Scheduler"
+        },
+        {
+          "entry": "\\One System Care Task",
+          "location": "Task Scheduler"
+        },
+        {
+          "entry": "\\Natvofbe",
+          "location": "Task Scheduler"
+        },
+        {
+          "entry": "\\Diprasj",
+          "location": "Task Scheduler"
+        },
+        {
+          "entry": "\\uhy3013",
+          "location": "Task Scheduler"
+        },
+        {
+          "entry": "C:\\Documents and Settings\\All Users\\Start Menu\\Programs\\Startup\\Verizon Online Support Center.zip",
+          "location": "C:\\Documents and Settings\\All Users\\Start Menu\\Programs\\Startup"
+        },
+        {
+          "entry": "\\Thufihaz",
+          "location": "Task Scheduler"
+        },
+        {
+          "entry": "\\Heumpys",
+          "location": "Task Scheduler"
+        },
+        {
+          "entry": "c:\\progra~1\\optimi~1\\optpro~1.dll",
+          "location": "HKLM\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows\\AppInit_DLLs"
+        },
+        {
+          "entry": "C:\\Users\\Owner\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\binaries_burst6y4.zip",
+          "location": "C:\\Users\\Owner\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup"
+        },
+        {
+          "entry": "\\Ad-Aware Antivirus Scheduled Scan",
+          "location": "Task Scheduler"
+        },
+        {
+          "entry": "\\tet3008",
+          "location": "Task Scheduler"
+        },
+        {
+          "entry": "",
+          "location": "XXX\\XXX\\"
+        },
+        {
+          "entry": "WinRAR.exe",
+          "location": "HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\App Paths"
+        }
+      ],
+      "downloadable": true,
+      "first_submission_date": 1170892383,
+      "last_analysis_date": 1602071198,
+      "last_analysis_results": {
+        "ALYac": {
+          "category": "undetected",
+          "engine_name": "ALYac",
+          "engine_update": "20201007",
+          "engine_version": "1.1.1.5",
+          "method": "blacklist",
+          "result": null
+        },
+        "APEX": {
+          "category": "type-unsupported",
+          "engine_name": "APEX",
+          "engine_update": "20201007",
+          "engine_version": "6.79",
+          "method": "blacklist",
+          "result": null
+        },
+        "AVG": {
+          "category": "undetected",
+          "engine_name": "AVG",
+          "engine_update": "20201007",
+          "engine_version": "18.4.3895.0",
+          "method": "blacklist",
+          "result": null
+        },
+        "Acronis": {
+          "category": "type-unsupported",
+          "engine_name": "Acronis",
+          "engine_update": "20200917",
+          "engine_version": "1.1.1.78",
+          "method": "blacklist",
+          "result": null
+        },
+        "Ad-Aware": {
+          "category": "undetected",
+          "engine_name": "Ad-Aware",
+          "engine_update": "20201007",
+          "engine_version": "3.0.16.117",
+          "method": "blacklist",
+          "result": null
+        },
+        "AegisLab": {
+          "category": "undetected",
+          "engine_name": "AegisLab",
+          "engine_update": "20201007",
+          "engine_version": "4.2",
+          "method": "blacklist",
+          "result": null
+        },
+        "AhnLab-V3": {
+          "category": "undetected",
+          "engine_name": "AhnLab-V3",
+          "engine_update": "20201007",
+          "engine_version": "3.18.2.10046",
+          "method": "blacklist",
+          "result": null
+        },
+        "Alibaba": {
+          "category": "type-unsupported",
+          "engine_name": "Alibaba",
+          "engine_update": "20190527",
+          "engine_version": "0.3.0.5",
+          "method": "blacklist",
+          "result": null
+        },
+        "Antiy-AVL": {
+          "category": "undetected",
+          "engine_name": "Antiy-AVL",
+          "engine_update": "20201007",
+          "engine_version": "3.0.0.1",
+          "method": "blacklist",
+          "result": null
+        },
+        "Arcabit": {
+          "category": "undetected",
+          "engine_name": "Arcabit",
+          "engine_update": "20201007",
+          "engine_version": "1.0.0.881",
+          "method": "blacklist",
+          "result": null
+        },
+        "Avast": {
+          "category": "undetected",
+          "engine_name": "Avast",
+          "engine_update": "20201007",
+          "engine_version": "18.4.3895.0",
+          "method": "blacklist",
+          "result": null
+        },
+        "Avast-Mobile": {
+          "category": "type-unsupported",
+          "engine_name": "Avast-Mobile",
+          "engine_update": "20201007",
+          "engine_version": "201007-00",
+          "method": "blacklist",
+          "result": null
+        },
+        "Avira": {
+          "category": "undetected",
+          "engine_name": "Avira",
+          "engine_update": "20201007",
+          "engine_version": "8.3.3.8",
+          "method": "blacklist",
+          "result": null
+        },
+        "Baidu": {
+          "category": "undetected",
+          "engine_name": "Baidu",
+          "engine_update": "20190318",
+          "engine_version": "1.0.0.2",
+          "method": "blacklist",
+          "result": null
+        },
+        "BitDefender": {
+          "category": "undetected",
+          "engine_name": "BitDefender",
+          "engine_update": "20201007",
+          "engine_version": "7.2",
+          "method": "blacklist",
+          "result": null
+        },
+        "BitDefenderTheta": {
+          "category": "undetected",
+          "engine_name": "BitDefenderTheta",
+          "engine_update": "20200930",
+          "engine_version": "7.2.37796.0",
+          "method": "blacklist",
+          "result": null
+        },
+        "Bkav": {
+          "category": "undetected",
+          "engine_name": "Bkav",
+          "engine_update": "20201007",
+          "engine_version": "1.3.0.9899",
+          "method": "blacklist",
+          "result": null
+        },
+        "CAT-QuickHeal": {
+          "category": "undetected",
+          "engine_name": "CAT-QuickHeal",
+          "engine_update": "20201007",
+          "engine_version": "14.00",
+          "method": "blacklist",
+          "result": null
+        },
+        "CMC": {
+          "category": "undetected",
+          "engine_name": "CMC",
+          "engine_update": "20201007",
+          "engine_version": "2.7.2019.1",
+          "method": "blacklist",
+          "result": null
+        },
+        "ClamAV": {
+          "category": "undetected",
+          "engine_name": "ClamAV",
+          "engine_update": "20201006",
+          "engine_version": "0.102.3.0",
+          "method": "blacklist",
+          "result": null
+        },
+        "Comodo": {
+          "category": "undetected",
+          "engine_name": "Comodo",
+          "engine_update": "20201007",
+          "engine_version": "32874",
+          "method": "blacklist",
+          "result": null
+        },
+        "CrowdStrike": {
+          "category": "type-unsupported",
+          "engine_name": "CrowdStrike",
+          "engine_update": "20180202",
+          "engine_version": "1.0",
+          "method": "blacklist",
+          "result": null
+        },
+        "Cybereason": {
+          "category": "type-unsupported",
+          "engine_name": "Cybereason",
+          "engine_update": "20180308",
+          "engine_version": null,
+          "method": "blacklist",
+          "result": null
+        },
+        "Cylance": {
+          "category": "type-unsupported",
+          "engine_name": "Cylance",
+          "engine_update": "20201007",
+          "engine_version": "2.3.1.101",
+          "method": "blacklist",
+          "result": null
+        },
+        "Cynet": {
+          "category": "undetected",
+          "engine_name": "Cynet",
+          "engine_update": "20201007",
+          "engine_version": "4.0.0.24",
+          "method": "blacklist",
+          "result": null
+        },
+        "Cyren": {
+          "category": "undetected",
+          "engine_name": "Cyren",
+          "engine_update": "20201007",
+          "engine_version": "6.3.0.2",
+          "method": "blacklist",
+          "result": null
+        },
+        "DrWeb": {
+          "category": "undetected",
+          "engine_name": "DrWeb",
+          "engine_update": "20201007",
+          "engine_version": "7.0.49.9080",
+          "method": "blacklist",
+          "result": null
+        },
+        "ESET-NOD32": {
+          "category": "undetected",
+          "engine_name": "ESET-NOD32",
+          "engine_update": "20201007",
+          "engine_version": "22112",
+          "method": "blacklist",
+          "result": null
+        },
+        "Elastic": {
+          "category": "type-unsupported",
+          "engine_name": "Elastic",
+          "engine_update": "20201006",
+          "engine_version": "4.0.10",
+          "method": "blacklist",
+          "result": null
+        },
+        "Emsisoft": {
+          "category": "undetected",
+          "engine_name": "Emsisoft",
+          "engine_update": "20201007",
+          "engine_version": "2018.12.0.1641",
+          "method": "blacklist",
+          "result": null
+        },
+        "F-Secure": {
+          "category": "undetected",
+          "engine_name": "F-Secure",
+          "engine_update": "20201007",
+          "engine_version": "12.0.86.52",
+          "method": "blacklist",
+          "result": null
+        },
+        "FireEye": {
+          "category": "undetected",
+          "engine_name": "FireEye",
+          "engine_update": "20201007",
+          "engine_version": "32.36.1.0",
+          "method": "blacklist",
+          "result": null
+        },
+        "Fortinet": {
+          "category": "undetected",
+          "engine_name": "Fortinet",
+          "engine_update": "20201007",
+          "engine_version": "6.2.142.0",
+          "method": "blacklist",
+          "result": null
+        },
+        "GData": {
+          "category": "undetected",
+          "engine_name": "GData",
+          "engine_update": "20201007",
+          "engine_version": "A:25.27256B:27.20434",
+          "method": "blacklist",
+          "result": null
+        },
+        "Ikarus": {
+          "category": "undetected",
+          "engine_name": "Ikarus",
+          "engine_update": "20201007",
+          "engine_version": "0.1.5.2",
+          "method": "blacklist",
+          "result": null
+        },
+        "Invincea": {
+          "category": "undetected",
+          "engine_name": "Invincea",
+          "engine_update": "20201007",
+          "engine_version": "1.0.1.0",
+          "method": "blacklist",
+          "result": null
+        },
+        "Jiangmin": {
+          "category": "undetected",
+          "engine_name": "Jiangmin",
+          "engine_update": "20201007",
+          "engine_version": "16.0.100",
+          "method": "blacklist",
+          "result": null
+        },
+        "K7AntiVirus": {
+          "category": "undetected",
+          "engine_name": "K7AntiVirus",
+          "engine_update": "20201007",
+          "engine_version": "11.144.35384",
+          "method": "blacklist",
+          "result": null
+        },
+        "K7GW": {
+          "category": "undetected",
+          "engine_name": "K7GW",
+          "engine_update": "20201007",
+          "engine_version": "11.144.35385",
+          "method": "blacklist",
+          "result": null
+        },
+        "Kaspersky": {
+          "category": "undetected",
+          "engine_name": "Kaspersky",
+          "engine_update": "20201007",
+          "engine_version": "15.0.1.13",
+          "method": "blacklist",
+          "result": null
+        },
+        "Kingsoft": {
+          "category": "undetected",
+          "engine_name": "Kingsoft",
+          "engine_update": "20201007",
+          "engine_version": "2013.8.14.323",
+          "method": "blacklist",
+          "result": null
+        },
+        "MAX": {
+          "category": "undetected",
+          "engine_name": "MAX",
+          "engine_update": "20201007",
+          "engine_version": "2019.9.16.1",
+          "method": "blacklist",
+          "result": null
+        },
+        "Malwarebytes": {
+          "category": "undetected",
+          "engine_name": "Malwarebytes",
+          "engine_update": "20201007",
+          "engine_version": "3.6.4.335",
+          "method": "blacklist",
+          "result": null
+        },
+        "MaxSecure": {
+          "category": "timeout",
+          "engine_name": "MaxSecure",
+          "engine_update": "20201007",
+          "engine_version": "1.0.0.1",
+          "method": "blacklist",
+          "result": null
+        },
+        "McAfee": {
+          "category": "undetected",
+          "engine_name": "McAfee",
+          "engine_update": "20201007",
+          "engine_version": "6.0.6.653",
+          "method": "blacklist",
+          "result": null
+        },
+        "McAfee-GW-Edition": {
+          "category": "undetected",
+          "engine_name": "McAfee-GW-Edition",
+          "engine_update": "20201007",
+          "engine_version": "v2019.1.2+3728",
+          "method": "blacklist",
+          "result": null
+        },
+        "MicroWorld-eScan": {
+          "category": "undetected",
+          "engine_name": "MicroWorld-eScan",
+          "engine_update": "20201007",
+          "engine_version": "14.0.409.0",
+          "method": "blacklist",
+          "result": null
+        },
+        "Microsoft": {
+          "category": "undetected",
+          "engine_name": "Microsoft",
+          "engine_update": "20201007",
+          "engine_version": "1.1.17500.4",
+          "method": "blacklist",
+          "result": null
+        },
+        "NANO-Antivirus": {
+          "category": "undetected",
+          "engine_name": "NANO-Antivirus",
+          "engine_update": "20201007",
+          "engine_version": "1.0.134.25169",
+          "method": "blacklist",
+          "result": null
+        },
+        "Paloalto": {
+          "category": "type-unsupported",
+          "engine_name": "Paloalto",
+          "engine_update": "20201007",
+          "engine_version": "1.0",
+          "method": "blacklist",
+          "result": null
+        },
+        "Panda": {
+          "category": "undetected",
+          "engine_name": "Panda",
+          "engine_update": "20201007",
+          "engine_version": "4.6.4.2",
+          "method": "blacklist",
+          "result": null
+        },
+        "Qihoo-360": {
+          "category": "undetected",
+          "engine_name": "Qihoo-360",
+          "engine_update": "20201007",
+          "engine_version": "1.0.0.1120",
+          "method": "blacklist",
+          "result": null
+        },
+        "Rising": {
+          "category": "undetected",
+          "engine_name": "Rising",
+          "engine_update": "20201007",
+          "engine_version": "25.0.0.26",
+          "method": "blacklist",
+          "result": null
+        },
+        "SUPERAntiSpyware": {
+          "category": "undetected",
+          "engine_name": "SUPERAntiSpyware",
+          "engine_update": "20201002",
+          "engine_version": "5.6.0.1032",
+          "method": "blacklist",
+          "result": null
+        },
+        "Sangfor": {
+          "category": "undetected",
+          "engine_name": "Sangfor",
+          "engine_update": "20200814",
+          "engine_version": "1.0",
+          "method": "blacklist",
+          "result": null
+        },
+        "SentinelOne": {
+          "category": "type-unsupported",
+          "engine_name": "SentinelOne",
+          "engine_update": "20200724",
+          "engine_version": "4.4.0.0",
+          "method": "blacklist",
+          "result": null
+        },
+        "Sophos": {
+          "category": "undetected",
+          "engine_name": "Sophos",
+          "engine_update": "20201007",
+          "engine_version": "4.98.0",
+          "method": "blacklist",
+          "result": null
+        },
+        "Symantec": {
+          "category": "undetected",
+          "engine_name": "Symantec",
+          "engine_update": "20201007",
+          "engine_version": "1.12.0.0",
+          "method": "blacklist",
+          "result": null
+        },
+        "SymantecMobileInsight": {
+          "category": "type-unsupported",
+          "engine_name": "SymantecMobileInsight",
+          "engine_update": "20200813",
+          "engine_version": "2.0",
+          "method": "blacklist",
+          "result": null
+        },
+        "TACHYON": {
+          "category": "undetected",
+          "engine_name": "TACHYON",
+          "engine_update": "20201007",
+          "engine_version": "2020-10-07.03",
+          "method": "blacklist",
+          "result": null
+        },
+        "TotalDefense": {
+          "category": "undetected",
+          "engine_name": "TotalDefense",
+          "engine_update": "20201007",
+          "engine_version": "37.1.62.1",
+          "method": "blacklist",
+          "result": null
+        },
+        "Trapmine": {
+          "category": "type-unsupported",
+          "engine_name": "Trapmine",
+          "engine_update": "20200727",
+          "engine_version": "3.5.0.1023",
+          "method": "blacklist",
+          "result": null
+        },
+        "TrendMicro": {
+          "category": "undetected",
+          "engine_name": "TrendMicro",
+          "engine_update": "20201007",
+          "engine_version": "11.0.0.1006",
+          "method": "blacklist",
+          "result": null
+        },
+        "TrendMicro-HouseCall": {
+          "category": "undetected",
+          "engine_name": "TrendMicro-HouseCall",
+          "engine_update": "20201007",
+          "engine_version": "10.0.0.1040",
+          "method": "blacklist",
+          "result": null
+        },
+        "Trustlook": {
+          "category": "undetected",
+          "engine_name": "Trustlook",
+          "engine_update": "20201007",
+          "engine_version": "1.0",
+          "method": "blacklist",
+          "result": null
+        },
+        "VBA32": {
+          "category": "undetected",
+          "engine_name": "VBA32",
+          "engine_update": "20201007",
+          "engine_version": "4.4.1",
+          "method": "blacklist",
+          "result": null
+        },
+        "VIPRE": {
+          "category": "undetected",
+          "engine_name": "VIPRE",
+          "engine_update": "20201007",
+          "engine_version": "87246",
+          "method": "blacklist",
+          "result": null
+        },
+        "ViRobot": {
+          "category": "undetected",
+          "engine_name": "ViRobot",
+          "engine_update": "20201007",
+          "engine_version": "2014.3.20.0",
+          "method": "blacklist",
+          "result": null
+        },
+        "Webroot": {
+          "category": "type-unsupported",
+          "engine_name": "Webroot",
+          "engine_update": "20201007",
+          "engine_version": "1.0.0.403",
+          "method": "blacklist",
+          "result": null
+        },
+        "Yandex": {
+          "category": "undetected",
+          "engine_name": "Yandex",
+          "engine_update": "20201006",
+          "engine_version": "5.5.2.24",
+          "method": "blacklist",
+          "result": null
+        },
+        "Zillya": {
+          "category": "undetected",
+          "engine_name": "Zillya",
+          "engine_update": "20201007",
+          "engine_version": "2.0.0.4193",
+          "method": "blacklist",
+          "result": null
+        },
+        "ZoneAlarm": {
+          "category": "undetected",
+          "engine_name": "ZoneAlarm",
+          "engine_update": "20201007",
+          "engine_version": "1.0",
+          "method": "blacklist",
+          "result": null
+        },
+        "Zoner": {
+          "category": "undetected",
+          "engine_name": "Zoner",
+          "engine_update": "20201007",
+          "engine_version": "0.0.0.0",
+          "method": "blacklist",
+          "result": null
+        },
+        "eGambit": {
+          "category": "type-unsupported",
+          "engine_name": "eGambit",
+          "engine_update": "20201007",
+          "engine_version": null,
+          "method": "blacklist",
+          "result": null
+        }
+      },
+      "last_analysis_stats": {
+        "confirmed-timeout": 0,
+        "failure": 0,
+        "harmless": 0,
+        "malicious": 0,
+        "suspicious": 0,
+        "timeout": 1,
+        "type-unsupported": 14,
+        "undetected": 59
+      },
+      "last_modification_date": 1602071261,
+      "last_submission_date": 1601864645,
+      "magic": "data",
+      "md5": "76cdb2bad9582d23c1f6f4d868218d6c",
+      "meaningful_name": "lprn_spotlightstory_015.zip",
+      "names": [
+        "PAGO OCTUBRE.zip",
+        "c:\\users\\admini~1\\appdata\\local\\temp\\winrar\\zipnew.dat",
+        "%ALLUSERSPROFILE%\\e72oehitu4jbh2oq7ln9c6ua1\\files\\files\\authy.zip",
+        "%ALLUSERSPROFILE%\\0sc8nfrf8ms1j93qtgwvhkfq3\\files\\files\\userprofile.zip",
+        "%ALLUSERSPROFILE%\\nno0l5oz6dtl8yucx8hrap7q9\\files\\files\\default.zip",
+        "ogl.zip",
+        "%ec%a0%95%eb%b6%80%ec%a0%84%ec%9e%90%eb%94%94%eb%a0%89%ed%86%a0%eb%a6%ac%20%ec%a0%95%eb%b3%b4%20%eb%b3%80%ea%b2%bd%20%ec%9a%94%ec%b2%ad.zip",
+        "c:\\users\\admini~1\\appdata\\local\\temp\\projects\\win10xpe\\_customfiles_\\mytheme\\web4.7z",
+        "lwjgl-platform-2.9.4-nightly-20150209.jar",
+        "Desktop.zip",
+        "C:\\ProgramData\\WALGHT244LKF19D01FTQMHM8Q\\_e2958b0e-3fe7-483e-8b47-5af1e0ba38582252559086.zip",
+        "%ALLUSERSPROFILE%\\ih8lzjy8jf8h1zlhihue0n98p\\files\\files\\default.zip",
+        "%ALLUSERSPROFILE%\\4apmwvu3i0lttsplgm6u00p6m\\files\\files\\desktop.zip",
+        "aforizm.epub",
+        "%ALLUSERSPROFILE%\\qagywd4xrpnqq9u7jf75zeers\\files\\files\\desktop.zip",
+        "Amoozesh-Quran.zip",
+        "c:\\users\\admini~1\\appdata\\local\\temp\\wimbuilder2-2020.06.06\\projects\\win10xpe\\_customfiles_\\mytheme\\web4.7z",
+        "Solve the Puzzle.zip",
+        "a-wizards-memory-windows-dev.zip",
+        "C:\\Users\\<USER>\\AppData\\Local\\Temp\\mia9ED6.tmp\\data\\OFFLINE\\76BA49A1\\3F4CF927\\_tpnew_.zip",
+        "%ProgramFiles(x86)%\\winrar\\zipnew.dat",
+        "C:\\Users\\<USER>\\Downloads\\temp.zip",
+        "%ALLUSERSPROFILE%\\l9ifa7wwyzbs5h2scm9q2ih7b\\files\\files\\authy.zip",
+        "%ALLUSERSPROFILE%\\hkgxf913hs4769ysh57oorbdt\\files\\files\\authy.zip",
+        "%ALLUSERSPROFILE%\\gxvphzib429z4mj7ycwykx0e2\\files\\files\\authy.zip",
+        "%ALLUSERSPROFILE%\\qiu62saxmtqfukxwym0r7ps29\\files\\files\\authy.zip",
+        "%ALLUSERSPROFILE%\\z03qzqxgwb8noc7w6hvn3yd3o\\files\\files\\authy.zip",
+        "%ALLUSERSPROFILE%\\7h1lwctvqmf0acod18gjpgd5g\\files\\files\\authy.zip",
+        "%ALLUSERSPROFILE%\\2de1p3ksvxwb9g6zzmj7ueh7m\\files\\files\\authy.zip",
+        "%ALLUSERSPROFILE%\\k8l2n8iuh067o5s9gtbcoviqn\\files\\files\\authy.zip",
+        "%ALLUSERSPROFILE%\\d84bwsc5y7ytz1ffhgvkl6b8w\\files\\files\\default.zip",
+        "%ALLUSERSPROFILE%\\gzxlebf7y3ehtzofcdnatf69i\\files\\files\\default.zip",
+        "%ALLUSERSPROFILE%\\wqtunvdygm0x76ybjwv9hd8sc\\files\\files\\authy.zip",
+        "%ALLUSERSPROFILE%\\dicwq6axuodkuygigemkzuts5\\files\\files\\default.zip",
+        "DE_0303d5b4-ffe9-470e-9dd8-7d9ec416e53f1057445219.zip",
+        "9a7e13fe-e629-4ec0-adb0-d99c07224842.epub",
+        "ER_S_BEL_G11320050.zip",
+        "997066f1-e06b-4110-8fc6-4b9c85de8082.epub",
+        "C:\\ProgramData\\7DPAMGO3NSTZ2ZX8BRZD0ZF31\\CN_e2958b0e-3fe7-483e-8b47-5af1e0ba38588639699028.zip",
+        "%ALLUSERSPROFILE%\\zvis9ydv54k2vu1z6np89qjp6\\files\\files\\default.zip",
+        "filosof.epub",
+        "anekd.epub",
+        "_777.zip",
+        "cikiacigi.zip",
+        "C:\\Users\\<USER>\\AppData\\Local\\JawaSugar\\Desktop\\Desktop_txt.zip",
+        "%ALLUSERSPROFILE%\\x9vvi127eun9kbqwh4d7zzgj7\\files\\files\\authy.zip",
+        "%ALLUSERSPROFILE%\\dl6aocug3ol6udt8e7ugx37xt\\files\\files\\authy.zip",
+        "%ALLUSERSPROFILE%\\cakthdu23kyh4rfbspembqj5x\\files\\files\\default.zip",
+        "C:\\Program Files (x86)\\XinSuZip\\ZipNew.data",
+        "c:\\users\\administrator\\appdata\\local\\temp\\sqldba_workgroup_2020_09_11_sqldiagnostics.zip",
+        "%APPDATA%\\快压\\zipnew.dat",
+        "%ALLUSERSPROFILE%\\o0t8ao5c05ao7xsgysekzkjb9\\files\\files\\default.zip",
+        "%ALLUSERSPROFILE%\\ehii501s37z3x16yefbiyhwhg\\files\\files\\default.zip",
+        "%ALLUSERSPROFILE%\\jhtfzkxpn4r5yzfo1kghppsji\\files\\files\\default.zip",
+        "031f5093-c1af-4964-bc13-53c8cd1df071.epub",
+        "<CURRENT_DIR>\\temp.zip~rf105051.tmp",
+        "<CURRENT_DIR>\\temp.zip~rf1174b2.tmp",
+        "<CURRENT_DIR>\\temp.zip~rf10fc0a.tmp",
+        "%ALLUSERSPROFILE%\\5zdps0a7s8tr0jrfyl9h8gqyq\\files\\files\\desktop.zip",
+        "%ALLUSERSPROFILE%\\6ojq6daus8ft52b6nhj8fljl9\\files\\files\\default.zip",
+        "<CURRENT_DIR>\\temp.zip~rf102339.tmp",
+        "<CURRENT_DIR>\\temp.zip~rf11e88a.tmp",
+        "<CURRENT_DIR>\\temp.zip~rf10abf7.tmp",
+        "<CURRENT_DIR>\\temp.zip~rf11709d.tmp",
+        "2853b55066fe4db54949fb00634b4722.virus.exe _20200928.134134.2244.zip",
+        "%TEMP%\\mymacro.zip",
+        "%TEMP%\\plugin.zip",
+        "<CURRENT_DIR>\\temp.zip~rf10c679.tmp",
+        "<CURRENT_DIR>\\temp.zip~rf119c4e.tmp",
+        "%ALLUSERSPROFILE%\\n4ekypiu0ve3hd6n2uq7fxlbv\\files\\files\\authy.zip",
+        "%ALLUSERSPROFILE%\\j8q8xznvgl9edzyublgwsch10\\files\\files\\default.zip",
+        "%ALLUSERSPROFILE%\\6fy5ww6p8eg1l2v5jfe2m9vjr\\files\\files\\default.zip",
+        "<CURRENT_DIR>\\temp.zip~rf102193.tmp",
+        "<CURRENT_DIR>\\temp.zip~rf1072ee.tmp",
+        "Sea of Greed.zip",
+        "%ALLUSERSPROFILE%\\grg7gke41xvmulbk628eu9apw\\files\\files\\default.zip",
+        "suredrop-637371550408099448.zip; filename*=UTF-8''suredrop-637371550408099448.zip",
+        "70924a5e-8a1f-4876-bda7-41b49eb3fa8c.epub",
+        "22043825_img.zip",
+        "%ALLUSERSPROFILE%\\pa232ydn14cmae0tzn4airdij\\files\\files\\atomic.zip",
+        "20200922\r 205000000018778221-pdf.zip",
+        "%LOCALAPPDATA%\\8fb3bdc905\\dotnetzip-jpsedgfo.tmp",
+        "DE_33d770d0-06bc-47c5-8714-222cdac43a713909025232.zip",
+        "%ALLUSERSPROFILE%\\qunla1wcbir7il5seax3rqph1\\files\\files\\default.zip",
+        "Imgur Account Download  ScoobashankMcLickapickles Account.zip",
+        "C:\\Program Files\\2345Soft\\HaoZip\\ZipNew.data",
+        "%ALLUSERSPROFILE%\\y3ng6olyy3lvf9eztyjwgwetf\\files\\files\\default.zip",
+        "82d59925e1568ac2696b919d105499dd.virus.exe _20200930.052806.280.zip",
+        "delvon-items.zip",
+        "c:\\users\\admini~1\\appdata\\local\\temp\\files\\downloads.zip",
+        "%ALLUSERSPROFILE%\\ak6syclnrz5aatsz3w6cpbfed\\files\\files\\desktop.zip",
+        "%ALLUSERSPROFILE%\\6wlrlu4whbtdprzvc94zfqaj6\\files\\files\\authy.zip",
+        "C:\\Users\\<USER>\\AppData\\Local\\Temp\\newdrk.zip",
+        "clicker (1).zip",
+        "<CURRENT_DIR>\\temp.zip~rf1006f2.tmp",
+        "%ALLUSERSPROFILE%\\nc7f2xd1d7mcppjgoct8tx8xv\\files\\files\\authy.zip",
+        "%ALLUSERSPROFILE%\\x6kvfw4z2ajouxx9cm85cv3xm\\files\\files\\authy.zip",
+        "CountryQuiz.zip",
+        "lamer.zip",
+        "1.zip"
+      ],
+      "nsrl_info": {
+        "filenames": [
+          "WINDOWS DIALUP.ZIP",
+          "kemsetup.ZIP",
+          "Data_Linux.zip",
+          "2003.zip",
+          "_6A271FB199E041FC82F4D282E68B01D6"
+        ],
+        "products": [
+          "Master Hacker Internet Terrorism (Core Publishing Inc.)",
+          "Read Rabbits Math Ages 6-9 (Smart Saver)",
+          "Neverwinter Nights Gold (Atari)",
+          "Limited Edition Print Workshop 2004 (ValuSoft)",
+          "Crysis (Electronic Arts Inc.)"
+        ]
+      },
+      "reputation": -813,
+      "sha1": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33",
+      "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+      "size": 22,
+      "ssdeep": "3:pjt/l:Nt",
+      "tags": [
+        "software-collection",
+        "nsrl",
+        "attachment",
+        "trusted",
+        "via-tor"
+      ],
+      "times_submitted": 333601,
+      "total_votes": {
+        "harmless": 658,
+        "malicious": 979
+      },
+      "trid": [
+        {
+          "file_type": "ZIP compressed archive (empty)",
+          "probability": 80
+        },
+        {
+          "file_type": "PrintFox/Pagefox bitmap (640x800)",
+          "probability": 20
+        }
+      ],
+      "trusted_verdict": {
+        "filename": "lprn_spotlightstory_015.zip",
+        "link": "https://dl.google.com/dl/spotlight/test/lprn_spotlightstory/9/lprn_spotlightstory_015.zip",
+        "organization": "Google",
+        "verdict": "goodware"
+      },
+      "type_description": "unknown",
+      "unique_sources": 3609,
+      "wireshark": {
+        "pcap": {
+          "File encapsulation": "",
+          "File type": ""
+        }
+      }
+    },
+    "id": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+    "links": {
+      "self": "https://www.virustotal.com/api/v3/files/8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85"
+    },
+    "type": "file"
+  }
+}
